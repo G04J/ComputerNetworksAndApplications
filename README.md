@@ -1,4 +1,4 @@
-# DNS Implementation - COMP3331/9331 Assignment
+# DNS Implementation - Socket Programming
 
 A simplified DNS (Domain Name System) client-server implementation using UDP protocol in Python.
 
