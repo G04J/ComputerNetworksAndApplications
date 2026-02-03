@@ -1,10 +1,7 @@
 # DNS Resolver Implementation (Socket Programming)
 
 A production-grade DNS resolver built from scratch demonstrating expertise in network protocols, socket programming, and distributed systems architecture.
-
-**Author:** Gul Jain  
 **Tech Stack:** Python 3.11, UDP Sockets, Multithreading  
-**Lines of Code:** ~500 (excluding comments)
 
 ## Technical Skills Demonstrated
 
