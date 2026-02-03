@@ -2,9 +2,6 @@
 
 A simplified DNS (Domain Name System) client-server implementation using UDP protocol in Python.
 
-## Author
-**Gul Jain**
-
 ## Overview
 
 This project implements a basic DNS resolver consisting of:
@@ -273,47 +270,3 @@ Server logs all queries and responses with millisecond-precision timestamps:
 3. **Global Variables**: Uses global dictionaries for resource records (not ideal practice)
 4. **Code Redundancy**: Some helper functions could be consolidated
 5. **Query ID Range**: Uses port range (49152-65535) instead of full 16-bit range
-
-## Testing on CSE Servers
-
-The code is designed to run on CSE servers with Python 3.11. To test:
-
-```bash
-# On CSE server
-cd /path/to/project
-
-# Start server
-python3 server.py 54321
-
-# In another terminal, run client
-python3 client.py 54321 example.com. A 5
-```
-
-## References
-
-- Computer Networking: A Top-Down Approach, 7th Edition (Section 2.7.1 - Socket Programming with UDP)
-- Python struct module documentation: https://docs.python.org/3/library/struct.html
-- GeeksforGeeks struct module reference: https://www.geeksforgeeks.org/struct-module-python/
-- Various StackOverflow posts for specific implementation details
-
-## Assignment Submission
-
-Files to submit:
-- `client.py`
-- `server.py`
-- `report.pdf`
-
-No Makefile required for Python implementation.
-
-## License
-
-This is an academic assignment for COMP3331/9331 Computer Networks and Applications.
-
-## Contact
-
-For questions or issues, refer to the course discussion forum or contact course staff.
-
----
-**Course**: COMP3331/9331 Computer Networks and Applications  
-**Term**: 2, 2024  
-**Institution**: UNSW Sydney
